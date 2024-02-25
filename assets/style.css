@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Inter:wght@400;500&family=Onest&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Charm:wght@400;700&family=Courgette&family=Pacifico&family=Playball&family=Rozha+One&family=Sen:wght@400..800&display=swap');
+
+/* Asterix wildcard selector to override default styles added by the browser */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, Onest, sans-serif;
+    font-weight: 300;
+    color: black;
+}
