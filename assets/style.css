@@ -14,3 +14,60 @@ body {
     font-weight: 300;
     color: black;
 }
+
+/* navbar and logo in header section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 100px;
+    width: 10%;
+    cursor: pointer;
+    border-color:#FAD02C;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    width: 100%;
+    background-color: #FAD02C;
+}
+
+#nav-links {
+    font-size: 110%;
+    padding-top: 1.5rem;
+    letter-spacing: 4px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav-links li{
+    display: inline-block;
+    padding: 10px 20px;
+    list-style: none;
+    font-weight: bold;
+} 
+
+#nav-links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: black;
+}
+
+#nav-links a:hover {
+    color:#0000FF;
+    border-block:0.5rem solid white;
+    writing-mode: horizontal-tb;
+}
+
+.active {
+    border-block:0.5rem solid white;
+}
