@@ -167,8 +167,8 @@ hr {
 .button {
     background-color: #06141B;
     color: #F8FAF9;
-    border: 2px solid #F8FAF9;
-    border-radius: 2px;
+    border: 3px solid #F8FAF9;
+    border-radius: 4px;
     padding: 25px 32px 20px 40px;
     margin-top: 3em;
     margin-left: 7rem;
@@ -186,6 +186,8 @@ hr {
     color: #F8FAF9;
     font-weight: bold;
     border: 3px #06141B;
+    border-radius: 4px;
+    text-decoration: none;
 }
 
 /* Deals section and offers */
@@ -240,4 +242,17 @@ a:visited {
 }
 a:hover {
     text-decoration: underline;
+}
+
+/* Deals section and offers */
+
+#about-boba {
+    width: 80%;
+    margin: 50px auto;
+}
+.heading {
+    text-align: center;
+    font-size: 7vmin;
+    font-family: 'charm' sans-serif;
+    padding-bottom: 5rem;
 }
