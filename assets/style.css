@@ -24,6 +24,7 @@ header {
 }
 
 #logo {
+    display: flex;
     height: 100px;
     width: 10%;
     cursor: pointer;
@@ -109,4 +110,69 @@ header {
     
     position: absolute;
     display: block;
+}
+
+/* welcome section and overview */
+
+#welcome {
+    width: 80%;
+    margin: 80px auto;
+}
+.title {
+    text-align: center;
+    font-size: 5vmin;
+    font-style: 'charm' sans-serif;
+    padding-bottom: 5rem;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .text-left {
+    width: 50%;
+    height: 400px;
+}
+.row .store-right {
+    width: 50%;
+    padding-left: 6rem;
+}
+.store-right img{
+   height: 400px;
+   width: 100%;
+}
+.row .store-right .text-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr {
+    border: 1.5px solid #06141B;
+}
+.text-left p {
+    padding-top: 3rem;
+    line-height: 1.5;
+}
+.button {
+    background-color: #06141B;
+    color: #F8FAF9;
+    border: 2px solid #F8FAF9;
+    border-radius: 2px;
+    padding: 25px 32px 20px 40px;
+    margin-top: 3em;
+    margin-left: 6rem;
+    width: 220px;
+    font-size: 100%;
+    letter-spacing: 4px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.button:hover {
+    background-color: #FAD02C;
+    color: #F8FAF9;
+    font-weight: bold;
+    border: 3px #06141B;
 }
