@@ -26,11 +26,14 @@ header {
 #logo {
     display: flex;
     height: 100px;
-    width: 10%;
+    width: 100%;
+    max-width: 115px;
     cursor: pointer;
-    border-color:#FAD02C;
+    border-color:#F8FAF9;
+    border-radius: 0.8rem;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
     margin-right: auto;
 }
 
@@ -65,7 +68,7 @@ header {
 
 #nav-links a:hover {
     color:#0000FF;
-    border-block:0.5rem solid white;
+    border-block:0.5rem solid #F8FAF9;
     writing-mode: horizontal-tb;
 }
 
@@ -85,10 +88,10 @@ header {
 
 #hero-image {
     position: relative;
-    height: 600px;
+    height: 100vh;
     width: 100%;
     max-width: 100%;
-    border: 4px solid #06141B;
+    margin-top: 0.5rem;
     background: url(../assets/img/hero-image.JPG) no-repeat center center;
     background-size: cover;
     display: flex;
@@ -237,11 +240,9 @@ hr {
 .box a {
     text-decoration: none;
 }
-a:visited {
-    color: blueviolet;
-}
 a:hover {
     text-decoration: underline;
+    color: blueviolet;
 }
 
 /* Deals section and offers */
@@ -254,5 +255,39 @@ a:hover {
     text-align: center;
     font-size: 7vmin;
     font-family: 'charm' sans-serif;
-    padding-bottom: 5rem;
+    padding: 2rem 0 4rem 0;
+}
+.boba {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.boba .text-boba {
+    width: 50%;
+    padding-left: 6rem;
+    height: 4o0px;
+        
+}
+.boba img {
+    width: 50%;
+    max-width: 450px;
+    height: 400px;
+    position: relative;
+}
+
+.boba .boba-img .text-boba {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-boba h2 {
+    padding-bottom: 0.5rem;
+}
+.text-boba p {
+    padding-top: 2rem;
+    line-height: 1.1;
+    letter-spacing: 0;
+    font-size: 18px;
+    text-align: justify;
 }
