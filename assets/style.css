@@ -87,10 +87,11 @@ header {
     position: relative;
     height: 600px;
     width: 100%;
+    max-width: 100%;
     border: 4px solid #06141B;
     background: url(../assets/img/hero-image.JPG) no-repeat center center;
     background-size: cover;
-    display: block;
+    display: flex;
 }
 
 #hero-text {
@@ -121,7 +122,7 @@ header {
 .title {
     text-align: center;
     font-size: 5vmin;
-    font-style: 'charm' sans-serif;
+    font-family: 'charm' sans-serif;
     padding-bottom: 5rem;
 }
 .row {
@@ -141,6 +142,7 @@ header {
 .store-right img{
    height: 400px;
    width: 100%;
+   max-width: 400px;
 }
 .row .store-right .text-left {
     display: flex;
@@ -149,7 +151,8 @@ header {
 }
 hr {
     border: 2px solid #B9B7BD;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     display: flex;
 }
 .text-left h2 {
@@ -169,13 +172,14 @@ hr {
     padding: 25px 32px 20px 40px;
     margin-top: 3em;
     margin-left: 7rem;
-    width: 220px;
+    width: 100%;
+    max-width: 220px;
     font-size: 100%;
     letter-spacing: 4px;
     line-height: 1.5;
     text-decoration: none;
     text-align: center;
-    display: block;
+    display: flex;
 }
 .button:hover {
     background-color: #FAD02C;
@@ -183,17 +187,49 @@ hr {
     font-weight: bold;
     border: 3px #06141B;
 }
-#deals {
-    width: 100%;
+
+/* Deals section and offers */
+
+#deals-section {
+    width: 95%;
     margin: 100px 10px;
 }
-#deals h1 {
+#deals-section h1 {
     text-align: center;
     font-size: 6vmin;
     font-style: "charm" sans-serif;
     padding-bottom: 2rem;
 }
-#deals h2 {
+#deals-section h2 {
     text-align: center;
-    font-size: 4vmin;
+    font-size: 4vmin; 
 }
+.deals {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 50px 15px;
+}
+.box {
+    border: 5px solid #cdcdcd;
+    height: 500px;
+    width: 23%;
+    justify-content: space-evenly;
+    text-decoration: none;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.box img {
+    height: 310px;
+    width: 100%;
+    max-width: 220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 2rem;
+    display: flex;
+}
+.box h
