@@ -266,7 +266,7 @@ a:hover {
 .boba .text-boba {
     width: 50%;
     padding-left: 6rem;
-    height: 4o0px;
+    height: 400px;
         
 }
 .boba img {
@@ -295,6 +295,7 @@ a:hover {
 /* Footer Section - contact info */
 
 footer {
+    height: 80vh;
     width: 100%;
     max-width: 1400px;
     background-color: #FAD02C;
@@ -309,4 +310,30 @@ footer a img {
     border: #F8FAF9;
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
+    padding: 0;
 }
+#footer-section {
+    width: 100%;
+    margin: 50px 0;
+}
+#footer-section .column {
+    display: flex;
+    align-items: center;
+    line-height: 1.5rem;  
+    margin: 0;
+}
+.column {
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 0;
+}
+.column h1 {
+    font-size: 3vmin;
+    padding-bottom: 2rem;
+}
+.column .list {
+    list-style-type: none;
+
+}
+
+
