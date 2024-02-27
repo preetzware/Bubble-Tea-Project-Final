@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: Inter, Onest, sans-serif;
+    font-family: Inter, Onest, sans-serif, charm;
     font-weight: 300;
     color: black;
 }
@@ -409,4 +409,43 @@ line-height: 1rem;
     position: absolute;
     display: flex;
     justify-content: center;
+}
+
+/* Order bubble tea section*/
+
+#order-section {
+    height: 500px;
+    width: 100%;
+    background-color: #B40052;
+    margin-top: 2rem;
+}
+#order-head {
+    font-family: 'charm' sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.container {
+    width: 18%;
+    height: 300px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 0 0 3rem 1.2rem;
+    margin-left: 0.9rem;
+}
+.container img {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+}
+.container h1 {
+    padding-bottom: 1rem;
+}
+.container h2 {
+    padding-top: 1rem;
+    text-align: center;
 }
