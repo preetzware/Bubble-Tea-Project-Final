@@ -249,7 +249,7 @@ a:hover {
 
 #about-boba {
     width: 80%;
-    margin: 50px auto;
+    margin: 50px 0 100px 105px;
 }
 .heading {
     text-align: center;
@@ -322,7 +322,7 @@ footer a img {
     line-height: 1.5rem; 
 }
 .column {
-    margin: 0 0 0 10rem;
+    margin: 0 0 2.5rem 8.6rem;
 }
 .column h1 {
     font-size: 3vmin;
@@ -330,11 +330,43 @@ footer a img {
 }
 .column li {
     list-style: none;
+    font-size: 3vmin;
 }
 .column li a {
 text-decoration: none;
 line-height: 1rem;
 }
+#footer-links {
+    line-height: 2rem;
+}
 
+/* copyright Section */
 
-
+#copyright-section {
+    width: 100%;
+}
+#copyright-section .footer-end h2 {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+}
+.footer-end h2 {
+    font-size: 15px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #F8FAF9;
+    background-color: #06141B;
+    height: 35px;
+    align-items: center;
+    align-content: center;
+    padding-left: 31rem;
+}
+#copyright-section hr {
+    display: flex;
+    height: 2px;
+    width: 100%;
+    max-width: 1400px;
+    background-color: #F8FAF9;
+    border-color: transparent;
+    margin: 0;
+}
