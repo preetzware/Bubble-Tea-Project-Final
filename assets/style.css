@@ -500,3 +500,32 @@ line-height: 1rem;
 .menu-price {
     font-size: 22px;
 }
+
+ /*  Fruit Series  */
+
+ #fruit-tea-section {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.fruit-tea {
+    width: 16%;
+    height: 200px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.fruit-series {
+    text-align: center;
+    background-color: #DB1F48;
+    color: #F8FAF9;
+}
+
+.heading-fruit {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
