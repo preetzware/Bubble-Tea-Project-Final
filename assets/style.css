@@ -418,6 +418,7 @@ line-height: 1rem;
     width: 100%;
     background-color: #B40052;
     margin-top: 2rem;
+    margin-bottom: 3.5rem;
 }
 #order-head {
     font-family: 'charm' sans-serif;
@@ -448,4 +449,11 @@ line-height: 1rem;
 .container h2 {
     padding-top: 1rem;
     text-align: center;
+}
+
+/* Menu section*/
+
+#head-menu {
+    text-align: center;
+    font-weight: bold;
 }
