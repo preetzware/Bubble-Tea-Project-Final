@@ -746,7 +746,7 @@ line-height: 1rem;
     opacity:1;
 }
 
-/*  Gallery page - Masonery style images set-up  */
+/*  Gallery page - title and gif section  */
 
 .bubble-partea {
     width: 100%;
@@ -766,4 +766,19 @@ line-height: 1rem;
     width: 120px;
     display: flex;
     margin-left: 31rem;
+}
+
+/*  Gallery page - title and gif section  */
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+#gallery img {
+    flex-wrap: wrap;
+    width: 320px;
+    height: 300px;
+    margin: 10px 0;
 }
