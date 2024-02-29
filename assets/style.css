@@ -745,3 +745,18 @@ line-height: 1rem;
     font-weight: bold;
     opacity:1;
 }
+
+/*  Gallery page - Masonery style images set-up  */
+
+.bubble-partea {
+    width: 100%;
+    margin: 5rem 0;
+}
+.title-partea {
+    width: 90%;      
+}
+.title-partea h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "charm" sans-serif;
+}
