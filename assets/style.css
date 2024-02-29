@@ -774,7 +774,7 @@ line-height: 1rem;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 15px 0;
+    margin: 15px 0 100px 0;
 }
 #gallery img {
     flex-wrap: wrap;
