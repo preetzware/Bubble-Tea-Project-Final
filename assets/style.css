@@ -753,10 +753,17 @@ line-height: 1rem;
     margin: 5rem 0;
 }
 .title-partea {
-    width: 90%;      
+    width: 90%; 
+    padding-left: 4rem;     
 }
 .title-partea h1 {
     display: flex;
     justify-content: center;
     font-family: "charm" sans-serif;
+}
+.boba-gif {
+    height: 120px;
+    width: 120px;
+    display: flex;
+    margin-left: 31rem;
 }
